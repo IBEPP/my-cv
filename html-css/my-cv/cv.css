@@ -1,4 +1,197 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/poppins.ttf");
+}
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins.ttf");
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    font-family: "poppins";
+}
+
+
+#img-titre h1 {
+    font-size: 40px;
+}
+
+
+.top {
+    background-color: blue;
+    background-image: linear-gradient(90deg, blue 0%, #FC00FF 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+    text-indent: 25px;
+    padding-left: 11%;
+}
+
+.top li {
+    font-size: 20px;
+}
+
+.top h2 {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.img-name {
+    text-align: center;
+}
+
+#img-titre h2 {
+    color: blue;
+    font-size: 25px;
+}
+
+#img {
+    width: 60vh;
+    border-radius: 50%;
+}
+
+.titre {
+    text-align: center;
+}
+
+#img-titre {
+    /* display: flex;
+    padding-left: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    word-spacing: none; */
+    text-align: center;
+}
+
+.presentation {
+    background-color: blue;
+    background-image: linear-gradient(90deg, blue 0%, #FC00FF 100%);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.presentation ul {
+    padding-left: 40%;
+    list-style: none;
+}
+
+.presentation h3 {
+    padding-left: 40%;
+    font-size: 25px;
+}
+
+.Experiences {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Experiences ul {
+    padding-left: 40%;
+    list-style: none;
+}
+
+.Experiences h3 {
+    padding-left: 40%;
+    font-size: 25px;
+}
+
+.Experiences aside {
+    text-align: right;
+    padding-right: 20%;
+}
+
+
+.Formations {
+    background-color: blue;
+    background-image: linear-gradient(90deg, blue 0%, #FC00FF 100%);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Formations ul {
+    padding-left: 40%;
+    list-style: none;
+}
+
+.Formations h3 {
+    padding-left: 40%;
+    font-size: 25px;
+}
+
+.Formations aside {
+    padding-right: 20%;
+    text-align: right;
+}
+
+li {
+    font-size: 17px;
+}
+
+
+.Passion {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Passion ul {
+    padding-left: 40%;
+    list-style: none;
+}
+
+.Passion h3 {
+    padding-left: 40%;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Langues {
+    background-color: blue;
+    background-image: linear-gradient(90deg, blue 0%, #FC00FF 100%);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Langues ul {
+    padding-left: 40%;
+    list-style: none;
+}
+
+.Langues h3 {
+    padding-left: 40%;
+    font-size: 25px;
+}
+
+
+.mon-site {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mon-site a {
+    color: black;
+}
+
+.mon-site footer {
+    padding-left: 40%;
+}
+
+.mon-site h3 {
+    padding-left: 40%;
+    font-size: 25px;
 }

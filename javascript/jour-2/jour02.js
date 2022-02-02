@@ -9,9 +9,7 @@ console.log(float);
 // 02 - Convert
 let basic = 34 ;
 
-let stringified = "34" ;
-
-console.log(basic);
+let stringified = basic.toString();
 
 console.log(stringified);
 
@@ -73,15 +71,32 @@ let score = 40 ;
 
 let password = "azerty";
 
-if (limit > score && password.length > 5) {
-    console.log("Everything is good");
-} if (limit > limit || password.length ) {
-    console.log("Something is good");
-} if (score < limit && password.length) {
-    console.log("Nothing is good");
+// if (limit > score && password.length > 5) {
+//     console.log("Everything is good")
+// } else if (limit < score || password.length < 5 ) {
+//     console.log("Something is good")
+// };
+
+// if (limit >= score && password.length > 5) {
+//     console.log("Everything is good");
+// } if (limit > limit || password.length> 5 ) {
+//     console.log("Something is good");
+// } if (score < limit && password.length) {
+//     console.log("Nothing is good");
+// };
+
+let max = 100;
+
+for (let i = 0; i <= max;  i++) {
+    console.log(i);
 };
 
 
+let a = 1 ;
+
+let b = 6 ;
+let random = Math.floor(Math.random()*(b - a + 1) + a);
+console.log(random);
 
 
 

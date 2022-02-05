@@ -80,12 +80,12 @@ let mest = CamaradeDeClass [Math.floor(Math.random()* CamaradeDeClass.length)]
 console.log(mest);
 
 // ⭐⭐⭐⭐ Bonus IV
-let max = 100 ;
-let min = 0;
-let tab = [];
-for (f=20; max > f && f>= min; ) {
+// let max = 100 ;
+// let min = 0;
+// let tab = [];
+// for (f=20; max > f && f>= min; ) {
 
-};
+// };
 
 
 

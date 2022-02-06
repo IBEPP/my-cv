@@ -26,7 +26,7 @@ let tysonGay = 0;
 let min = 1;
 let max = 10;
 
-for ( let num = 99; usainBolt < num && tysonGay < num; ) {
+for ( let num = 100; usainBolt < num && tysonGay < num; ) {
     let usain = Math.floor(Math.random() * (max - min +1) +min );
     let tyson = Math.floor(Math.random() * (max - min +1) +min );
     usainBolt = usainBolt + usain;

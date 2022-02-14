@@ -1,5 +1,5 @@
-// 01 - File System
-// var fs = require("fs");
+// // 01 - File System
+// const fs = require("fs");
 
 // fs.readFile("jour07.txt", function (err, data) {
 //     if (err) {
@@ -10,7 +10,7 @@
 //     console.log("Lecture en différé : " + data.toString());
 //  });
 
-// 02 - Map Double
+// // 02 - Map Double
 // let num = [1, 2, 3, 4, 5];
 
 // let doubles = num.map(function(num) {
@@ -18,7 +18,7 @@
 // });
 // console.log(doubles);
 
-// 03 - Map Names
+// // 03 - Map Names
 // let logNames = [
 // 	{
 // 		firstName: "Jane",
@@ -39,11 +39,8 @@
 
 // console.log(shortNames);
 
-// 04 - Filter Numbers
-// probleme
-
-
-
+// // // 04 - Filter Numbers
+// // probleme
 // let array = [1, "toto", 34, "javascript", 8];
 // let numbers = array.filter((numbers) => {
 //     if (typeof(numbers) === "number")
@@ -58,13 +55,14 @@
 // )
 // console.log(numbers)
 
-// 05 - Filter Even
+// // 05 - Filter Even
 // let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 // let even = numbers.filter(function (numbers) {
 //     return (numbers % 2 === 0 ) 
 // }
 // )
 // console.log(even);
+// 06 - Cakes
 
 // let cakes = [
 // 	{
@@ -103,5 +101,17 @@
 // }
 // )
 // console.log(array);
+
+// let now = array.map((cakes)=>{
+//     cakes.status = "is sold out !";
+//     // console.log(now)
+//     return cakes;
+
+// })
+// console.log(now);
+
+
+
+
 
 

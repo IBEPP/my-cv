@@ -1,4 +1,4 @@
-// 01 - Format
+// // 01 - Format
 // function formatDate(myDate) {
 //     let date = new Date(myDate);
 //     let annee = date.getFullYear();
@@ -8,7 +8,7 @@
 // }
 // formatDate("2022-02-01")
 
-// 02 - Age
+// // 02 - Age
 // function calculateAge(myDate2) {
 //     let fechaNueva = new Date();
 //     let nuevoMes = fechaNueva.getMonth()+1;
@@ -31,6 +31,7 @@
 // calculateAge("2001")
 
 // 03 - Validator
+function checkProfile()
 
 
 
